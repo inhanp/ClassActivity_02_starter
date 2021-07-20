@@ -1,0 +1,31 @@
+<mat-card>
+
+  <div class="current">
+    <div>
+      <p>{{ date | date:"MMM d, y" }} </p>
+    </div>
+    <div></div>
+    <div>
+      <mat-icon class="icon-display">
+      <span class="material-icons">
+        directions_walk
+      </span>
+      </mat-icon>
+    </div>
+    <div class="status">
+      <div>1000 Cal</div>
+      <div>
+        <mat-progress-bar mode="determinate" value="54" color="accent"></mat-progress-bar>
+      </div>
+      <div>54%</div>
+    </div>
+    <div></div>
+    <div class="status">
+      <div>59 Min</div>
+      <div>
+        <mat-progress-bar mode="determinate" value="35" color="accent"></mat-progress-bar>
+      </div>
+      <div>35%</div>
+    </div>
+  </div>
+</mat-card>
